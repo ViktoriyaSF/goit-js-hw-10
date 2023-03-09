@@ -7,16 +7,26 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: white;
+  background: rgb(34, 153, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 153, 195, 1) 0%,
+    rgba(253, 251, 45, 1) 100%
+  );
   color: #212121;
   line-height: 1.5;
+  height: 100vh;
+  text-align: center;
 }
 
 #search-box {
   font: inherit;
+  font-weight: bold;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  border-radius: 10px;
+  border: 5px solid rgb(194, 229, 242);
 }
 .item {
 }
