@@ -7,7 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background: white;
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +17,20 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+.item {
+}
+.flag {
+}
+.title {
+}
+.card {
+}
+.card-flag {
+}
+.card-title {
+}
+.card-text {
+}
+.card-topic {
 }
