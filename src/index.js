@@ -40,7 +40,7 @@ function createListCountry(countries) {
 function restAllCountry(nameCountry) {
   const makeList = nameCountry
     .map(({ name, flags }) => {
-      return `<li class="item"><img class="flag" src="${flags.svg}" alt="flag of ${name.official}" width="50" height="100%"><p class="title">${name.official}</p></li>`;
+      return `<li class="item"><img class="flag" src="${flags.svg}" alt="flag of ${name.official}" width="75" height="100%"><p class="title">${name.official}</p></li>`;
     })
     .join('');
   listCountry.innerHTML = makeList;
@@ -53,11 +53,11 @@ function restOneCountry(nameCountry) {
         flags.svg
       }"  alt="flag of ${
         name.official
-      }" width="70" heiht="100%"><p class="card-title">${
+      }" width="100" heiht="100%"><p class="card-title">${
         name.official
-      }</p></div><p class="card-text">Capital:<span class="card-topic">${capital}</span></p><p class="card-text">Population:<span class="card-topic">${population}</span></p><p class="card-text">Languages:<span class="card-topic">${Object.values(
+      }</p></div><div><p class="card-text">Capital:<span class="card-topic">${capital}</span></p><p class="card-text">Population:<span class="card-topic">${population}</span></p><p class="card-text">Languages:<span class="card-topic">${Object.values(
         languages
-      )}</span></p></div>`;
+      )}</span></p></div></div>`;
     })
     .join('');
   infoCountry.innerHTML = makeList;
